@@ -1,7 +1,3 @@
-/**
- * @fileoverview  Javascript for Oppia XBlock.
- */
-
 function OppiaXBlock(runtime, element) {
   var onLoadHandlerUrl = runtime.handlerUrl(
     element, 'on_exploration_loaded');
