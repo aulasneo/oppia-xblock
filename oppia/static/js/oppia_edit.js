@@ -1,7 +1,3 @@
-/**
- * @fileoverview  Javascript for Oppia XBlock editor.
- */
-
 function OppiaXBlockEditor(runtime, element) {
   $(element).find('.save-button').bind('click', function() {
     var handlerUrl = runtime.handlerUrl(element, 'studio_submit');
