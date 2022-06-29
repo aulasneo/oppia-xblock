@@ -34,16 +34,16 @@ class OppiaXBlock(XBlock):
     _EVENT_NAME_STATE_TRANSITION = 'oppia.exploration.state.changed'
 
     display_name = String(
-        help="Display name of the component",
-        default="Oppia Exploration",
+        help=_("Display name of the component"),
+        default=_("Oppia Exploration"),
         scope=Scope.content)
     oppiaid = String(
-        help="ID of the Oppia exploration to embed",
-        default="4",
+        help=_("ID of the Oppia exploration to embed"),
+        default=_("4"),
         scope=Scope.content)
     src = String(
-        help="Source URL of the site",
-        default="https://www.oppia.org",
+        help=_("Source URL of the site"),
+        default=_("https://www.oppia.org"),
         scope=Scope.content)
 
     def resource_string(self, path):
